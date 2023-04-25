@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academlo Shop</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <img src="./assets/img/logoNombre.jpg" alt="logoAcademlo">
+        <button class="cart__toggle">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <div class="list__shopping" id="cart">
+          <div id="list__items_shopping">
+          </div>
+          <div class="valuesToPay">
+            <p>TOTAL:</p>
+            <p id="totalValuePay">TOTAL</p>
+          </div>
+          <button class="empty__button" id="empty__cart">Empty cart</button>
+        </div>
+      </div>
+    </nav>
+    <header>
+        <img src="./assets/img/logoBlanco.png" alt="">
+    </header>
+    <main>
+      <h3>OUR PRODUCTS</h3>
+      <div id="listProducts" class="listProductsClass">
+      </div>
+      <div id="modalContainer" class="modalContainerClass">
+        <div class="modalLogoClose">
+          <i class="fa-solid fa-x closeModal"></i>
+        </div>
+        <div id="modal" class="modalClass"></div>
+      </div>
+    </main>
+    <footer>
+      <img src="/assets/img/logoBlanco.png" alt="logoFooter2" class="logoBlanco">
+      <a href="https://www.facebook.com/academlo?mibextid=ZbWKwL"><img src="/assets/img/facebook.png" alt="facebook style"></a>
+      <a href="https://instagram.com/academlohq?igshid=YmMyMTA2M2Y="><img src="/assets/img/instagram.png" alt="instagram style"></a>
+      <a href="https://youtube.com/@Academlo"><img src="/assets/img/youtube.png" alt="youtube style"></a>
+      <a href="https://wa.me/+573017865887?text=urlencodedtext"><img src="/assets/img/wassapp.png" alt="wassapp style"></a>
+    </footer>
+    <script src="https://kit.fontawesome.com/b22286fea9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
